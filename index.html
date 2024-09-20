@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NETNINJA PROGRAM</title>
+</head>
+<body>
+    <header>
+        <img src="Img/logo.png" alt="THENETNINJA">
+    </header>
+    <form action="">
+        <!-- GENDER -->
+        <p>You are a...</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+
+        <!-- INTERESTS/ENGAGEMENT -->
+        <h3>WHO IS INTERESTED IN...</h3>
+        <input type="checkbox" name="GYM" id="Curiosity-1" required>
+        <label for="Curiosity-1">Web Development</label><br>
+        <input type="checkbox" name="WORK" id="Curiosity-2" required>
+        <label for="Curiosity-2">Photoshop</label><br>
+        <input type="checkbox" name="TEA" id="Curiosity-3" required>
+        <label for="Curiosity-3">Singing Madonna Songs</label><br>
+        <br>
+
+        <!-- CONTACT INFORMATION -->
+        <fieldset>
+            <legend><h3>CONTACT INFO</h3></legend>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" required><br><br>
+            <label for="contact"></label>
+            <input type="text" id="contact" placeholder="Phone Number" required><br>
+        </fieldset>
+
+        <!-- MEANS OF COMMS -->
+        <h3>HOW WOULD YOU LIKE TO BE CONTACTED?</h3>
+        <select>
+            <option>By Email</option>
+            <option>By Phone</option>
+            <option>By Instagram</option>
+            <option>By Facebook</option>
+            <option>By Twitter</option>
+        </select><br><br>
+
+        <input type="file">
+
+        <input type="submit" value="Become A Ninja">
+    </form>
+</body>
+</html>
