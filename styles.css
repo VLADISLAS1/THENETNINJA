@@ -80,10 +80,10 @@ input[type='telephone']{
     background-position: 7px -59px;
 }
 select{
-    -ms-appearance: none;
+    /* -ms-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
-    -webkit-appearance: none;
+    -webkit-appearance: none; */
     appearance: none;
 
 
